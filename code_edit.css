@@ -283,7 +283,7 @@
   /* copy button */ 
   .shiki-btn{
           background-color: rgba(239, 0, 88, 0.493) !important;
-          border-radius: 5px;
+          border-radius: 0px;
           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
           backdrop-filter: blur(100px) saturate(110%);
           transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
@@ -291,12 +291,3 @@
           
   }
   
-  .shiki-btn:hover{
-    background-color: rgba(239, 0, 88, 0.619) !important;
-          border-radius: 5px;
-          box-shadow: 0 8px 15px rgba(0, 0, 0, 0.37);
-          backdrop-filter: blur(100px) saturate(110%);
-          -webkit-backdrop-filter: blur(100px);
-          transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-          transform: translateY(-4px);
-  }
